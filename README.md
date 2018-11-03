@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# privateBlockchain
-This project is private blockchain that store data locally using LevelDB
-=======
 # Private Blockchain with RESFUL API
 
 This project is private Blockchain that store data locally using LevelDB integrated with RESTFUL API to GET and POST Blocks.
@@ -73,4 +69,3 @@ Date →Sat, 03 Nov 2018 19:57:11 GMT
 - [ExpressJs](https://expressjs.com) - The web framework used.
 - [LevelDb](http://leveldb.org/) - Database.
 - [Crypto-js] - Used to hash blocks with SHA256.
->>>>>>> Added RESTFUL APIs
