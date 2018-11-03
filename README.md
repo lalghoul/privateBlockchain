@@ -1,4 +1,4 @@
-# Private Blockchain with RESFUL API
+# Private Blockchain with RESTFUL API
 
 This project is private Blockchain that store data locally using LevelDB integrated with RESTFUL API to GET and POST Blocks.
 
@@ -19,8 +19,8 @@ https://nodejs.org/en/
 1. Clone the repository to your local computer.
 2. Open the terminal and install the packages: `npm install`.
 3. Run your application `node app.js`
-4. Go to yur browser and type: `http://localhost:8000/block`
-5. a function initializeMockData() will add 10 blocks to Blockchain for testing.
+4. Go to your browser and type: `http://localhost:8000/block`
+5. Function initializeMockData() will add 10 blocks to Blockchain for testing.
 
 ## Running the tests
 
@@ -50,7 +50,7 @@ Date →Sat, 03 Nov 2018 19:23:45 GMT
 ## Example POST Response
 
 Example URL path:
-http://localhost:8000/block/[My data] where [My data] is the block data.
+http://localhost:8000/block/(Mydata) where (Mydata) is the block data.
 
 Example For URL, http://localhost:8000/block/Foo
 
@@ -67,5 +67,5 @@ Date →Sat, 03 Nov 2018 19:57:11 GMT
 ## Built With
 
 - [ExpressJs](https://expressjs.com) - The web framework used.
-- [LevelDb](http://leveldb.org/) - Database.
+- [LevelDB](http://leveldb.org/) - Database.
 - [Crypto-js](https://www.npmjs.com/package/crypto-js) - Used to hash blocks with SHA256.
